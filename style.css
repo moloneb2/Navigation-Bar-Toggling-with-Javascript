@@ -20,6 +20,7 @@ body {
 
 /* Header */
 header {
+    display: inline-block;
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
@@ -27,12 +28,22 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
 }
-
+nav{
+    display: inline-block;
+}
+#logo{
+    align-items: baseline;
+    display: inline-block;
+    font-size: 10px;
+}
 header a {
+    display: inline-block;
     text-decoration: none;
     color: inherit;
 }
-
+u#menu{
+    display: inline-block;
+}
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -41,12 +52,20 @@ h1 {
 }
 
 #menu {
+    
+    margin-left: 160px;
+    margin-top: 0px;
+    
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
-
+#hamburger{
+    padding: 5px;
+    font-size: 30px;
+}
 #menu > li {
+    
     margin-bottom: 1em;
 }
 
